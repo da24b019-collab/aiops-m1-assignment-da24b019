@@ -1,0 +1,4 @@
+[core]
+    remote = friend_remote
+['remote "friend_remote"']
+    url = ssh://sriharsha@10.52.226.203/home/sriharsha/dvc_storage
