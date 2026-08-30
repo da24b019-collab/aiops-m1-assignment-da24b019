@@ -80,13 +80,13 @@ commit history is preserved independently.
 **Repo:** https://github.com/DA24B020/aiops-m1-da24b019-da24b020
 
 Summary of the protocol followed:
-1. Partner A (DA24B019) trained a model with a fixed seed, logged the run to MLflow (params,
+1. Partner A (DA24B020) trained a model with a fixed seed, logged the run to MLflow (params,
    metrics, a `git_commit` tag, and the model artifact), versioned the dataset with DVC, and
    committed code + `.dvc` file together in a single commit. The model was registered and
    transitioned to the `Staging` stage.
 2. Partner A shared the repository URL and commit hash with Partner B — no further
    communication about environment, data, or hyperparameters.
-3. Partner B reproduced the result using only `git clone`, `git checkout <commit>`,
+3. Partner B(Me DA24B019) reproduced the result using only `git clone`, `git checkout <commit>`,
    `dvc checkout`, and `mamba env create -f environment.yml`, then reran the training script.
 4. Partner B logged a note on the original MLflow run documenting whether the reproduced
    metric matched within tolerance.
