@@ -25,17 +25,5 @@ This document transparently outlines how AI tools were used during the developme
 - Used AI to review specific functions or snippets for potential bugs, edge cases, or readability improvements.
 - All suggested changes were reviewed, understood, and tested before being merged.
 
-## Where AI Was Not Used
-
-- **Core project logic**: The primary algorithms, data structures, and business logic in [mention specific files/modules] were designed and implemented independently.
-- **Architecture and design decisions**: Choices about how the project is structured, what technologies to use, and how components interact were made without AI input.
-- **Testing and validation**: Test cases were written and run manually; results were verified by hand, not generated or validated by AI.
-- **Original ideas/approach**: The problem-solving approach and overall project direction are the author's own work.
-
-## Verification Process
-
-Every piece of AI-assisted output — whether a code snippet, a command, or a documentation phrase — was:
-1. Reviewed for correctness before use.
-2. Tested locally (for code/commands) to confirm it worked as expected.
 
 
